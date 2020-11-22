@@ -79,12 +79,12 @@ There were two approach taken to solve the problem by creating pipelines:
 5. Creating a HyperDriveConfig using the estimator, hyperparameter sampler, and policy.
 6. Getting the best run model and its metrics.
 7. Saving the model.
+   
+![HyperDrive Runs](https://github.com/VRL2403/Optimizing_a_Pipeline_in_Azure_Udacity/blob/master/Images/Udacity-Project-Run.png)
 
-![HyperDrive Runs](/Images/Udacity-Project-Run.png)
+![HyperDrive Child Runs](https://github.com/VRL2403/Optimizing_a_Pipeline_in_Azure_Udacity/blob/master/Images/Udacity-Project-Child-Runs.png)
 
-![HyperDrive Child Runs](/Images/Udacity-Project-Child-Runs.png)
-
-![HyperDrive Child Runs](/Images/Udacity-Project-Child-Runs-Primary-Metrics.png)
+![HyperDrive Child Runs](https://github.com/VRL2403/Optimizing_a_Pipeline_in_Azure_Udacity/blob/master/Images/Udacity-Project-Child-Runs-Primary-Metrics.png)
 
 **Benefits of parameter sampler**
 
@@ -104,7 +104,7 @@ There were two approach taken to solve the problem by creating pipelines:
 
 ## AutoML
 
-![Auto ML run](/Images/Udacity-Project-Auto-ML.png)
+![Auto ML run](https://github.com/VRL2403/Optimizing_a_Pipeline_in_Azure_Udacity/blob/master/Images/Udacity-Project-Auto-ML.png)
 
 - Azure AutoML is a no code environment, capable of training many different models in a short period of time like RandomForests, BoostedTrees, XGBoost, LightGBM, SGDClassifier, VotingEnsemble, etc.
 - Following config parameters are set for AutoML:
@@ -119,25 +119,25 @@ There were two approach taken to solve the problem by creating pipelines:
 
 *The best performing model was VotingEnsemble with accuracy of 0.9172*
 
-![Auto ML Best Run](/Images/Udacity-Project-Auto-ML-Best-Model.png)
+![Auto ML Best Run](https://github.com/VRL2403/Optimizing_a_Pipeline_in_Azure_Udacity/blob/master/Images/Udacity-Project-Auto-ML-Best-Model.png)
 
 ---
 
 ## Explanations
 
-![Auto ML Data Exploration](/Images/Udacity-Project-Data-Exploration.png)
+![Auto ML Data Exploration](https://github.com/VRL2403/Optimizing_a_Pipeline_in_Azure_Udacity/blob/master/Images/Udacity-Project-Data-Exploration.png)
 
-![Auto ML Data Importance](/Images/Udacity-Project-Data-Importance.png)
+![Auto ML Data Importance](https://github.com/VRL2403/Optimizing_a_Pipeline_in_Azure_Udacity/blob/master/Images/Udacity-Project-Data-Importance.png)
 
-![Auto ML Data Importance](/Images/Udacity-Project-Summary_importance.png)
+![Auto ML Data Importance](https://github.com/VRL2403/Optimizing_a_Pipeline_in_Azure_Udacity/blob/master/Images/Udacity-Project-Summary_importance.png)
 
 ---
 
 ## Performace Metrics
 
-![Auto ML Performace Metrics](/Images/Udacity-Project-AutoML-Metrics-1.png)
+![Auto ML Performace Metrics](https://github.com/VRL2403/Optimizing_a_Pipeline_in_Azure_Udacity/blob/master/Images/Udacity-Project-AutoML-Metrics-1.png)
 
-![Auto ML Performace Metrics](/Images/Udacity-Project-AutoML-Metrics-2.png)
+![Auto ML Performace Metrics](https://github.com/VRL2403/Optimizing_a_Pipeline_in_Azure_Udacity/blob/master/Images/Udacity-Project-AutoML-Metrics-2.png)
 
 ---
 
@@ -162,4 +162,4 @@ There were two approach taken to solve the problem by creating pipelines:
 - Following is proof for custer clean up
 
 
-![Cluster Clean Up Proof](/Images/Udacity-Project-Cluster-CleanUp-Proof.png)
+![Cluster Clean Up Proof](https://github.com/VRL2403/Optimizing_a_Pipeline_in_Azure_Udacity/blob/master/Images/Udacity-Project-Cluster-CleanUp-Proof.png)
